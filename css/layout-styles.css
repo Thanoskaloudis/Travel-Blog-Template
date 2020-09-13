@@ -1,0 +1,34 @@
+.site {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: 
+    "header header header header"
+    "sidebar main main main"
+    "footer footer footer footer";
+    grid-gap: 2em;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main-content {
+    grid-area: main;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.cards-layout{
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+    align-items: center;
+    grid-gap: 1em;
+}
