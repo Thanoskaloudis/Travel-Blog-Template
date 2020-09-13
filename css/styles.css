@@ -56,14 +56,9 @@ a {
     -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-image: url('../images/Santorini.jpg');
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
 }
 
-.image-description
-{
+.image-description {
     background-color: #FAFAFC;
     height: 10em;
     width: 24em;
@@ -73,6 +68,100 @@ a {
     -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     text-align: center;
+}
+
+.image-description p{
+    font-family: initial;
+}
+
+.first {
+    background-image: url('../images/Santorini.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.second {
+    background-image: url('../images/Athens.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.third {
+    background-image: url('../images/London.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.sidebar-containt li {
+    font: 18px/36px raleway-bold, sans-serif;
+    margin: 0;
+    padding: 0 0 5px 0;
+    text-align: left;
+    list-style: none outside;
+}
+
+.sidebar-containt fieldset {
+  padding-inline-start: 40px;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.sidebar-containt li a{
+    font-weight: bold;
+    color: #313131;
+    text-decoration: none;
+}
+
+.sidebar-containt label {
+    font-weight: bolder;
+    margin: 12px 0;
+    padding: 0px 0px 10px 10px;
+    width: 41.66667%;
+}
+
+.sidebar-containt input {
+  display: block;
+  padding: 18px 15px;
+  margin: 0 0 24px 0;
+  border: 0;
+  outline: none;
+  vertical-align: middle;
+  min-width: 260px;
+  max-width: 100%;
+  font-size: 15px;
+  line-height: 24px;
+  color: #647373;
+  background: #D3D9D9;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.sidebar-containt button {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  background: #8bdadc;
+  border: none;
+  cursor: pointer;
+  height: auto;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.copyright {
+    margin: 0;
+    padding: 40px 0 0 0;
+    text-align: center;
+    font-size: 15px;
+    font: 14px/30px notosans-regular, sans-serif;
 }
 
 /* Cards Hover States */

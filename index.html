@@ -2,10 +2,10 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>Template Title!</title>
+<title>travelstories</title>
 <meta name="description" content="Example" />
-<link rel="stylesheet" href="./css/main-styles.css" type="text/css">
-<link rel="stylesheet" href="./css/layout-styles.css" type="text/css">
+<link rel="stylesheet" href="./css/styles.css" type="text/css">
+<link rel="stylesheet" href="./css/layout.css" type="text/css">
 </head>
 <body class="site"> 
 
@@ -17,8 +17,7 @@
     <div class="cards-layout">
         <div class="card">
             <a href="./blogPost1.html">
-                <div class="image">
-
+                <div class=" first image">
                 </div>
             </a>
             <div class="image-description">
@@ -27,24 +26,22 @@
             </div>
         </div>
         <div class="card">
-            <a>
-                <div class="image">
-
+            <a href="./blogPost2.html">
+                <div class="second image">
                 </div>
             </a>
             <div class="image-description">
-                <h4>Santorini</h4>
+                <h4>Athens</h4>
                 <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
             </div>
         </div>
         <div class="card">
-            <a>
-                <div class="image">
-
+            <a href="./blogPost3.html">
+                <div class="third image">
                 </div>
             </a>
             <div class="image-description">
-                <h4>Santorini</h4>
+                <h4>London</h4>
                 <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
             </div>
         </div>
@@ -52,11 +49,34 @@
 </main>
 
 <aside class="sidebar">
-    <h2>Sidebar</h2>
+    <div class="sidebar-containt">
+        <ul class="sidebar-links">
+           <li><a href="#">About</a></li>
+           <li><a href="#">Contact</a></li>
+           <li><a href="#">Features</a></li>
+        </ul>
+        <form name="subscribeForm" id="subscribeForm" method="post" action="">
+            <fieldset>
+                <div class="cf">
+                        <label for="sName">Name</label>
+                        <input name="sName" type="text" id="sName" size="35" value="">
+                </div>
+                <div class="cf">
+                        <label for="sEmail">Email</label>
+                        <input name="sEmail" type="text" id="sEmail" size="35" value="">
+                </div>
+
+                <button type="submit" class="submit">Subscribe</button>
+            </fieldset>
+        </form>
+     </div>
 </aside>
 
 <footer class="footer">
-<h2>Footer</h2>
+    <ul class="copyright">
+        <li>Copyright © 2020 Thanos</li> 
+        <li>Design by <a href="https://www.linkedin.com/in/thanos-kaloudis-7643ba164/">Thanos Kaloudis</a></li>               
+     </ul>
 </footer>
 
 </body>
