@@ -1,0 +1,45 @@
+@import "../main/styles.css";
+@import "blog-layout.css";
+@import "blog-sidebar-styles.css";
+@import "blog-post-styles.css";
+    
+.blog-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../images/blogPost1.jpg');
+    background-size: cover;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+
+.first {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('../../images/blogPost1.jpg');
+    background-size: cover;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+
+.second {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('../../images/blogPost2.jpg');
+    background-size: cover;
+    background-position-y: 80%;
+    background-repeat: no-repeat;
+}
+
+.third {
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('../../images/blogPost3.jpg');
+    background-size: cover;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,69 @@
+
+.sidebar-header {
+    padding: 0;
+    margin-bottom: 5px;
+    color: #00000099;
+   }
+   
+   .text-search{
+       border:none;
+       width: 60%;
+       height: 30px;
+       border-radius: 3px;
+   }
+   
+   .about-text {
+       background-color: darkgray;
+       border-radius: 5px;
+       padding: 5px;
+       margin-top: 30px;
+   }
+   
+   .link-list{
+       padding: 0;
+       list-style: none outside;
+   }
+   
+   .tagcloud{
+       margin-top: 15px;
+   }
+   
+   .tagcloud a{
+       display: inline-block;
+       float: left;
+       margin: 0 0 12px 12px;
+       padding: 6px 10px;
+       position: relative;
+       text-transform: uppercase;
+       background: #D3D9D9;
+       text-decoration: none;
+       letter-spacing: 1px;
+       color: #6D7E7E;
+       -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+       -ms-transition: all .2s ease-in-out;
+       transition: all .2s ease-in-out;
+       border-radius: 3px;
+   }
+   
+   .photostream {
+       list-style: none;
+       margin: 18px 0 24px -15px;
+       padding: 0;
+       overflow: hidden;
+   }
+   
+   .photostream li {
+       float: left;
+       display: inline-block;
+       margin: 0 0 15px 15px;
+       padding: 0;
+   }
+   
+   .photostream li a img {
+       border-radius: 3px;
+       height: 30px;
+       width: 30px;
+       vertical-align: bottom;
+   }
